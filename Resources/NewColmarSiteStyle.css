@@ -1,0 +1,374 @@
+/* "Begin Colmar Site" */
+
+/* "Colmar Desktop  Styles" */
+
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  color: #404040;
+  font-size: 16px;
+}
+body {
+  display: flex;
+  margin: 0rem 0rem;
+  justify-content: center;
+}
+p {
+  font-size: 0.875rem;
+}
+.colmar {
+  width: 80rem;
+}
+#left {
+  padding-left: 2rem;
+}
+#right {
+  padding-right: 2rem;
+}
+#flex2 {
+  flex: 2;
+}
+#flex3 {
+  flex: 3;
+}
+
+
+/* "Colmar Header Frame" */
+
+
+header {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  position: fixed;
+  flex-flow: row;
+  align-items: center;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+span {
+  color: #e8e8e8;
+}
+.logo {
+  flex: 1;
+  width: 100%;
+}
+.nav {
+  padding-left: 1rem;
+}
+.nav a {
+  color: #404040;
+  font-size: 16px;
+}
+
+
+/* "Colmar Learn Frame" */
+
+
+.learnframe {
+  display: flex;
+  flex-flow: row;
+  padding-top: 4rem;
+  background-color: #e8e8e8;
+  justify-content: space-between;
+  align-items: center;
+}
+.learnframe img {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  flex: 1;
+}
+.learntext {
+  padding-right: 4rem;
+  flex: 1;
+}
+.startbutton {
+  background-color: #404040;
+  color: #f8f8f8;
+  width: 80%;
+  padding: 0.5rem 0rem;
+  text-align: center;
+}
+
+
+/* "Colmar Practice Frame" */
+
+
+.practiceframe {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f8f8;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.leftframe {
+  width: 60%;
+  padding: 2rem;
+  flex: 1;
+}
+.leftframe img {
+  width: 100%;
+  flex: 1;
+}
+.rightframe {
+  display: inline-flex;
+  flex-flow: column;
+  max-width: 40%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.rightbutton {
+  display: flex;
+  flex-flow: row;
+}
+.rightbutton img {
+  padding: 1rem;
+  width: 35%;
+  height: 35%;
+  flex: 1;
+}
+.text {
+  width: 80%;
+  margin: 1rem;
+  flex: 1;
+}
+#practicebutton {
+  border-top: .0625rem solid #e8e8e8;
+  border-right: .0625rem solid #e8e8e8;
+  border-bottom: .0625rem solid #e8e8e8;
+  border-left: .0625rem solid #e8e8e8;
+}
+#guest {
+  background-color: #e8e8e8;
+}
+
+
+/* "Colmar Start Frame" */
+
+
+.startbanner {
+  display: block;
+  background-color: #e8e8e8;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+.startframe {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: #e8e8e8;
+  justify-content: space-around;
+  flex-flow: wrap;
+  padding-bottom: 2rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+/* "Colmar Thesis Frame" */
+
+.thesisframe {
+  display: flex;
+  background-color: #f8f8f8;
+  justify-content: space-between;
+  flex-flow: row;
+}
+.thesisbanner {
+  display: flex;
+  background-color: #f8f8f8;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  justify-content: center;
+}
+.centerbutton {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+.centerbutton img {
+  width: 100%;
+  flex: 1;
+}
+.centerbutton .text {
+  padding-bottom: 1rem;
+}
+
+
+/* "Colmar Thesis Frame" */
+
+
+.leftframe video {
+  width: 100%;
+  flex: 1;
+}
+#fisma {
+  background-color: #e8e8e8;
+  border: none;
+}
+#now {
+  border: none;
+}
+
+
+/* "Colmar Footer Frame" */
+
+
+footer {
+  display: flex;
+  background-color: #f8f8f8;
+  flex-direction: row;
+  align-items: center;
+}
+.copyright {
+  flex: 1;
+}
+
+
+/* "Colmar Hyperlinks Styles" */
+
+a {
+  color: #404040;
+}
+a:hover {
+  color: blue;
+}
+.nav a:hover {
+  border: .0625rem dashed silver;
+}
+a: visited {
+  color: #404040;
+}
+.rightframe a:hover {
+  border: none;
+}
+.read a {
+  color: blue;
+}
+.read a:hover {
+  color: gold;
+  border: .0625rem dashed blue;
+}
+.startbutton a:hover {
+  border: .0625rem dashed silver;
+}
+.startbutton a:visited {
+  color: white;
+}
+
+
+/* "Colmar Mobile Site" */
+
+#mobilehead {
+  display: none;
+}
+#appear {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .colmar {
+    width: 30rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  #mobilehead {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    flex-flow: row;
+    align-items: center;
+    background-color: white;
+    padding: 0rem;
+    margin: 0rem;
+    justify-content: space-around;
+  }
+  #learnframe {
+    flex-flow: column;
+    justify-content: center;
+  }
+  #learnframe img {
+    width: 100%;
+    padding: 0rem;
+  }
+  #learntext {
+    padding: 2rem 0rem;
+    width: 90%;
+  }
+  .startbutton {
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: #A0A0A0;
+  }
+  #disappear {
+    display: none;
+  }
+  #appear {
+    display: block;
+  }
+  #mobilehead a {
+    width: 10%;
+  }
+  #mobilehead a:hover {
+    border: 0.0625rem dashed silver;
+  }
+  #rightframe {
+    display: flex;
+    max-width: 100%;
+    flex: 1;
+    justify-content: center;
+    padding-bottom: 0rem;
+  }
+  .rightbutton {
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+    flex: 1;
+  }
+  .rightbutton img {
+    width: 90%;
+  }
+  #practicebutton {
+    border: none;
+  }
+  #guest {
+    background-color: #f8f8f8;
+  }
+  .startbanner {
+    background-color: #f8f8f8;
+    padding: 1rem 0rem;
+  }
+  .mobilestart {
+    background-color: #f8f8f8;
+    flex: 2;
+    padding: 0rem 2rem;
+    padding-top: 0.0625rem;
+    border: .0625rem solid #e8e8e8;
+  }
+  .mobilestart h2 {
+    margin: 0.625rem 0rem;
+    background-color: #e8e8e8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    flex: 1;
+  }
+  .thesisbanner {
+    padding: 0rem;
+  }
+  .thesisframe {
+    margin: 0rem;
+    padding: 0rem;
+  }
+}
+
+
+/* "End Colmar Site" */
